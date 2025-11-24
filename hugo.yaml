@@ -21,12 +21,12 @@ params:
   # Profile Mode (The centered text & avatar on homepage)
   profileMode:
     enabled: true
-    title: "Hello, I'm [Your Name]"
-    subtitle: "Software Engineer | Writer | Explorer"
-    imageUrl: "https://github.com/github.png" # Replace with your image path (e.g., /me.jpg)
-    imageTitle: "My Avatar"
-    imageWidth: 120
-    imageHeight: 120
+    title: "Hello, I'm Tuan-An Nguyen"
+    subtitle: "Student"
+    # imageUrl: "https://github.com/github.png" # Replace with your image path (e.g., /me.jpg)
+    # imageTitle: "My Avatar"
+    # imageWidth: 120
+    # imageHeight: 120
     buttons:
       - name: My Blog
         url: posts
@@ -36,11 +36,11 @@ params:
   # Social Icons (displayed under profile)
   socialIcons:
     - name: github
-      url: "https://github.com/yourusername"
-    - name: linkedin
-      url: "https://linkedin.com/in/yourusername"
-    - name: x
-      url: "https://x.com/yourusername"
+      url: "https://github.com/anvn12"
+    # - name: linkedin
+    #   url: "https://linkedin.com/in/yourusername"
+    # - name: x
+    #   url: "https://x.com/yourusername"
 
   # Top Navigation Menu
   assets:
