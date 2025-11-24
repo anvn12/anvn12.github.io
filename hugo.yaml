@@ -17,23 +17,11 @@ outputs:
     - JSON
 
 params:
-  defaultTheme: auto # or dark, light
-  # Profile Mode (The centered text & avatar on homepage)
-  profileMode:
-    enabled: true
-    title: "Hello, I'm Tuan-An Nguyen"
-    subtitle: "Student"
-    # imageUrl: "https://github.com/github.png" # Replace with your image path (e.g., /me.jpg)
-    # imageTitle: "My Avatar"
-    # imageWidth: 120
-    # imageHeight: 120
-    buttons:
-      - name: My Blog
-        url: posts
-      - name: GitHub
-        url: https://github.com/yourusername
+  homeInfoParams:
+    Title: Tuan-An Nguyen (Nguyễn Tuấn An)
+    # Subtitle: "University of Science, VNU-HCM"
+    Content: University of Science, VNU-HCM.
 
-  # Social Icons (displayed under profile)
   socialIcons:
     - name: github
       url: "https://github.com/anvn12"
@@ -42,23 +30,57 @@ params:
     # - name: x
     #   url: "https://x.com/yourusername"
 
-  # Top Navigation Menu
-  assets:
-    disableHLJS: true # set true if using Prism.js, otherwise false
+# params:
+#   defaultTheme: auto # or dark, light
+#   # Profile Mode (The centered text & avatar on homepage)
+#   profileMode:
+#     enabled: true
+#     title: "Hello, I'm Tuan-An Nguyen"
+#     subtitle: "Student"
+#     # imageUrl: "https://github.com/github.png" # Replace with your image path (e.g., /me.jpg)
+#     # imageTitle: "My Avatar"
+#     # imageWidth: 120
+#     # imageHeight: 120
+#     buttons:
+#       - name: My Blog
+#         url: posts
+#       - name: GitHub
+#         url: https://github.com/yourusername
+
+#   # Social Icons (displayed under profile)
+#   socialIcons:
+#     - name: github
+#       url: "https://github.com/anvn12"
+#     # - name: linkedin
+#     #   url: "https://linkedin.com/in/yourusername"
+#     # - name: x
+#     #   url: "https://x.com/yourusername"
+
+#   # Top Navigation Menu
+#   assets:
+#     disableHLJS: true # set true if using Prism.js, otherwise false
 
 menu:
   main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
+    - identifier: about
+      name: About Me
+      url: /about/
       weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
+    - identifier: CV
+      name: CV
+      url: /cv/
       weight: 20
+    - identifier: publication
+      name: Publication
+      url: /publications/
+      # weight: 30
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      # weight: 40
     - identifier: search
       name: Search
       url: /search/
-      weight: 30
+      # weight: 50
 
 
