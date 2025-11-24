@@ -20,7 +20,8 @@ params:
   homeInfoParams:
     Title: Tuan-An Nguyen (Nguyễn Tuấn An)
     # Subtitle: "University of Science, VNU-HCM"
-    Content: University of Science, VNU-HCM.
+    Content: > 
+      University of Science, VNU-HCM.
 
   socialIcons:
     - name: github
