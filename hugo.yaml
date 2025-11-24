@@ -1,0 +1,64 @@
+baseURL: "https://anvn12.github.io/"
+languageCode: "en-us"
+title: "Tuan-An Nguyen"
+theme: "PaperMod"
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# Enable search (requires a search.md file, see step 4)
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  defaultTheme: auto # or dark, light
+  # Profile Mode (The centered text & avatar on homepage)
+  profileMode:
+    enabled: true
+    title: "Hello, I'm [Your Name]"
+    subtitle: "Software Engineer | Writer | Explorer"
+    imageUrl: "https://github.com/github.png" # Replace with your image path (e.g., /me.jpg)
+    imageTitle: "My Avatar"
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: My Blog
+        url: posts
+      - name: GitHub
+        url: https://github.com/yourusername
+
+  # Social Icons (displayed under profile)
+  socialIcons:
+    - name: github
+      url: "https://github.com/yourusername"
+    - name: linkedin
+      url: "https://linkedin.com/in/yourusername"
+    - name: x
+      url: "https://x.com/yourusername"
+
+  # Top Navigation Menu
+  assets:
+    disableHLJS: true # set true if using Prism.js, otherwise false
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+
+
