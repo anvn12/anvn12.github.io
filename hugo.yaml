@@ -69,7 +69,7 @@ menu:
       weight: 10
     - identifier: CV
       name: CV
-      url: /cv/
+      url: /cv.pdf
       weight: 20
     - identifier: publication
       name: Publication
