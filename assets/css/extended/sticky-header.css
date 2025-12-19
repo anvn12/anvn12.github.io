@@ -1,0 +1,14 @@
+/* Sticky Navigation Bar */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: var(--theme);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Smooth transition when scrolling */
+.header {
+    transition: box-shadow 0.3s ease;
+}
