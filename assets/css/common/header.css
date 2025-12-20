@@ -154,7 +154,7 @@ button#theme-toggle {
         align-items: flex-end;
         padding: 0px 25px 0px 40px;
         box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.1);
-        transition: max-height 0.3s ease, padding 0.3s ease;
+        transition: max-height 0.2s ease, padding 0.2s ease;
         overflow: hidden;
         margin: 0;
     }
