@@ -2,6 +2,10 @@
 ```bash
 hugo server --disableFastRender
 ```
+If autoreloading is desired, do
+```bash
+hugo server -D --poll 700ms
+```
 
 ## How to add files to Hugo
 
