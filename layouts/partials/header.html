@@ -113,8 +113,12 @@
         </ul>
     </nav>
     <script>
-        document.getElementById('menu-toggle')?.addEventListener('click', function() {
-            document.getElementById('menu')?.classList.toggle('show');
+        const menu = document.getElementById('menu');
+        const menuToggle = document.getElementById('menu-toggle');
+        
+        menuToggle?.addEventListener('click', function() {
+            menu?.classList.toggle('show');
+            menuToggle?.classList.toggle('active');
         });
     </script>
 </header>
