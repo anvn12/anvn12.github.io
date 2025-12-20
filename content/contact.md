@@ -1,6 +1,7 @@
 ---
 title: "Contact"
 layout: "page"
+summary: "contact"
 draft: false
 ---
 
