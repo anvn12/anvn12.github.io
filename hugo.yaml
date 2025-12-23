@@ -19,50 +19,22 @@ outputs:
 params:
   homeInfoParams:
     Title: Tuan-An Nguyen (Nguyễn Tuấn An)
-    # Subtitle: "University of Science, VNU-HCM"
     Content: > 
       University of Science, VNU-HCM.
 
   socialIcons:
+    # social icon list: https://github.com/adityatelange/hugo-PaperMod/wiki/Icons
     - name: github
       url: "https://github.com/anvn12"
-    # - name: linkedin
-    #   url: "https://linkedin.com/in/yourusername"
-    # - name: x
-    #   url: "https://x.com/yourusername"
-
-# params:
-#   defaultTheme: auto # or dark, light
-#   # Profile Mode (The centered text & avatar on homepage)
-#   profileMode:
-#     enabled: true
-#     title: "Hello, I'm Tuan-An Nguyen"
-#     subtitle: "Student"
-#     # imageUrl: "https://github.com/github.png" # Replace with your image path (e.g., /me.jpg)
-#     # imageTitle: "My Avatar"
-#     # imageWidth: 120
-#     # imageHeight: 120
-#     buttons:
-#       - name: My Blog
-#         url: posts
-#       - name: GitHub
-#         url: https://github.com/yourusername
-
-#   # Social Icons (displayed under profile)
-#   socialIcons:
-#     - name: github
-#       url: "https://github.com/anvn12"
-#     # - name: linkedin
-#     #   url: "https://linkedin.com/in/yourusername"
-#     # - name: x
-#     #   url: "https://x.com/yourusername"
-
-#   # Top Navigation Menu
-#   assets:
-#     disableHLJS: true # set true if using Prism.js, otherwise false
+    - name: email
+      url: "mailto: anmega83@gmail.com"
+    - name: cv
+      url: "/cv.pdf"
 
 menu:
   main:
+  # link to file: /<filename> in static folder
+  # link to page: /<page>/ in content folder (e.g., about -> content/about.md)
     - identifier: about
       name: About Me
       url: /about/
